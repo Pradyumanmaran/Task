@@ -1,0 +1,127 @@
+main {
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-left: clamp(3rem, 12vw, 7rem);
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s, background-color 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+    background-color: #e0e0e0; /* Slightly darker hover color */
+}
+
+#addAndDeleteBtn {
+    display: flex;
+    gap: 10px; /* Increased gap for better spacing */
+    border-radius: 15%; /* Unique rounded style */
+    justify-content: center; /* Center aligned buttons */
+}
+
+#addBtn {
+    background-color: #dff0d8; /* Light green for add button */
+    color: #3c763d;
+    font-weight: bold;
+}
+
+#addBtn:hover {
+    background-color: #c8e6c9; /* Softer green on hover */
+    color: #2e6e2e;
+}
+
+#deleteBtn {
+    background-color: #f8d7da; /* Light red for delete button */
+    color: #721c24;
+}
+
+#deleteBtn:hover {
+    background-color: #f5c6cb; /* Softer red on hover */
+    color: #5a1218;
+}
+
+.deleteIcon {
+    cursor: pointer;
+    margin-top: 8px;
+    background-color: #ff5e57; /* Bright red for delete icon */
+    padding: 6px;
+    border-radius: 50%; /* Circular icon */
+    margin-left: 6px;
+    transition: transform 0.2s ease-in-out; /* Smooth interaction */
+}
+
+.deleteIcon:hover {
+    transform: rotate(20deg) scale(1.1); /* Fun hover effect */
+}
+
+#docBtn {
+    margin-bottom: 8px; /* Adjusted margin for spacing */
+}
+
+#bodyContent {
+    display: flex;
+    justify-content: space-between; /* Improved layout alignment */
+    padding: 1.5rem; /* Added padding */
+}
+
+#docSection {
+    width: 18%; /* Slightly larger section for documents */
+    border-right: 1px solid #ddd; /* Divider for clarity */
+    padding-right: 10px;
+}
+
+#fileUploadSection {
+    margin-top: 25px; /* Increased margin for better spacing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 650px;
+}
+
+#fileUploadWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ccc; /* Dashed border for uniqueness */
+    padding: 20px; /* Added padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#navButtons {
+    display: flex;
+    justify-content: space-around; /* Even spacing between buttons */
+    margin-top: 3rem; /* Increased margin for better spacing */
+}
+
+.selected {
+    background-color: #007bff; /* Updated to modern blue */
+    color: white;
+    font-weight: bold; /* Emphasized selection */
+}
+
+.button {
+    background-color: #f9f9f9; /* Neutral background */
+    color: #333; /* Dark text for contrast */
+    border: 1px solid #ccc; /* Subtle border */
+    padding: 8px 12px; /* Adjusted size for consistency */
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e6e6e6; /* Subtle hover effect */
+}
+
+
